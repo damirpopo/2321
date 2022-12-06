@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    {% block footer %}<div class="footer">
+        <div class="imgf">
+            <img src="{% static "img/coolicon4.png" %}" alt="">
+        </div>
+        <div class="imgf">
+            <img src="{% static "img/5.png" %}" alt="">
+        </div>
+        <div class="imgf">
+            <img src="{% static "img/6.png" %}" alt="">
+        </div>
+        <div class="titlef">ООО «Дент», лицензия №ЛО-86-8681-01868686047 от 13.02.2099<br>
+            © 2018-2021</div>
+        <div class="titlef2">Политика в отношении обработки<br> персональных данных</div>
+        <div class="imgf2">
+            <img src="{% static "img/Слой.png" %}" alt="">
+        </div>
+    </div>
+    {% endblock footer %}
+</body>
+</html>

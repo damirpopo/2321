@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+
+}
+.img1{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.img{
+    margin-left: 15px;
+}
+.img2{}
+.head_title{
+    margin-left: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #01678A;
+}
+.head_subtitle{
+    margin-left: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    
+    color: #AAAAAA;
+}
+.img3{
+    margin-left: 80px;
+}
+.head_subtitle2{
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #474747;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+.num{
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #3C3C3C;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+.btn{margin-left: 50px;
+    width: 185.68px;
+    height: 41.2px;
+    left: 1604.32px;
+    top: 34.82px;
+    
+    background: #38BCEA;
+    border-radius: 3px;
+}
+.head_subtitle3{
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    
+    color: #919191;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.imgf{
+    margin-left: 35px;
+
+}
+.imgf2{
+    margin-left: 150px;
+
+}
+.titlef{
+    margin-left: 300px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 145.49%;
+    /* or 22px */
+    
+    text-align: center;
+    
+    color: #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+
+}
+.titlef2{
+    margin-left: 150px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 145.49%;
+    /* or 22px */
+    
+    text-decoration-line: underline;
+    
+    color: #000000;
+    
+
+}
